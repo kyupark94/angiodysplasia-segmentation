@@ -1,0 +1,12 @@
+{
+ "batch_size": 16,
+ "device_ids": "0,1,2,3",
+ "fold": 4,
+ "jaccard_weight": 0.3,
+ "limit": 10000,
+ "lr": 1e-05,
+ "model": "UNet16",
+ "n_epochs": 15,
+ "root": "runs/debug",
+ "workers": 12
+}
